@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .header { fill: #ffffff; stroke: #e2e8f0; stroke-width: 2; }
+      .brand { fill: #059669; }
+      .col { fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 2; rx: 12; }
+      .card { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.5; rx: 8; }
+      .btn { fill: #059669; rx: 6; }
+      .badge { fill: #10b981; rx: 10; }
+      .text-title { font-family: sans-serif; font-weight: bold; font-size: 16px; fill: #0f172a; }
+      .text-sub { font-family: sans-serif; font-size: 12px; fill: #64748b; }
+      .text-card { font-family: sans-serif; font-size: 13px; font-weight: 600; fill: #1e293b; }
+      .text-desc { font-family: sans-serif; font-size: 11px; fill: #475569; }
+      .text-white { font-family: sans-serif; font-size: 12px; font-weight: 600; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" class="bg" />
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="90" class="header" />
+  <rect x="40" y="22" width="46" height="46" rx="10" class="brand" />
+  <text x="100" y="44" class="text-title" font-size="20">Kanban Flow - Nguyễn Trường Vũ (6651071094)</text>
+  <text x="100" y="64" class="text-sub">Chủ đề: Quản lý công việc • Màu sắc chủ đạo: Emerald (#059669)</text>
+
+  <!-- Search & Action buttons in Header -->
+  <rect x="700" y="27" width="280" height="36" rx="8" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="720" y="50" class="text-sub">🔍 Tìm kiếm công việc (debounce)...</text>
+  <rect x="1000" y="27" width="160" height="36" class="btn" />
+  <text x="1025" y="50" class="text-white">+ Thêm công việc</text>
+
+  <!-- 4 Kanban Columns -->
+  <!-- Col 1: To Do -->
+  <rect x="40" y="120" width="265" height="640" class="col" />
+  <circle cx="65" cy="150" r="6" fill="#94a3b8" />
+  <text x="80" y="155" class="text-title">Cần làm (To Do)</text>
+  <rect x="235" y="140" width="45" height="22" rx="11" fill="#e2e8f0" />
+  <text x="253" y="156" class="text-sub" font-weight="bold">6</text>
+
+  <!-- Card 1 in Col 1 -->
+  <rect x="55" y="180" width="235" height="110" class="card" />
+  <rect x="65" y="192" width="70" height="18" rx="9" fill="#fee2e2" />
+  <text x="75" y="205" font-family="sans-serif" font-size="10" font-weight="bold" fill="#b91c1c">Khẩn cấp</text>
+  <text x="65" y="230" class="text-card">Thiết kế hệ thống Token</text>
+  <text x="65" y="248" class="text-desc">Xây dựng thư viện màu Emerald...</text>
+  <text x="65" y="275" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857">12.000.000 ₫</text>
+
+  <!-- Card 2 in Col 1 -->
+  <rect x="55" y="305" width="235" height="110" class="card" />
+  <rect x="65" y="317" width="60" height="18" rx="9" fill="#fef3c7" />
+  <text x="75" y="330" font-family="sans-serif" font-size="10" font-weight="bold" fill="#b45309">Ưu tiên</text>
+  <text x="65" y="355" class="text-card">Bổ sung bảo mật 2FA</text>
+  <text x="65" y="373" class="text-desc">Xác thực Google Authenticator...</text>
+  <text x="65" y="400" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857">18.500.000 ₫</text>
+
+  <!-- Col 2: In Progress -->
+  <rect x="325" y="120" width="265" height="640" class="col" />
+  <circle cx="350" cy="150" r="6" fill="#10b981" />
+  <text x="365" y="155" class="text-title">Đang làm</text>
+  <rect x="520" y="140" width="45" height="22" rx="11" fill="#d1fae5" />
+  <text x="538" y="156" class="text-sub" font-weight="bold" fill="#065f46">6</text>
+
+  <!-- Card in Col 2 -->
+  <rect x="340" y="180" width="235" height="110" class="card" stroke="#059669" stroke-width="2" />
+  <text x="350" y="205" font-family="sans-serif" font-size="10" font-weight="bold" fill="#059669">⚡ Đang kéo thả dnd-kit</text>
+  <text x="350" y="230" class="text-card">Kéo thả @dnd-kit</text>
+  <text x="350" y="248" class="text-desc">Hỗ trợ pointer và keyboard...</text>
+  <text x="350" y="275" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857">20.000.000 ₫</text>
+
+  <!-- Col 3: Review -->
+  <rect x="610" y="120" width="265" height="640" class="col" />
+  <circle cx="635" cy="150" r="6" fill="#f59e0b" />
+  <text x="650" y="155" class="text-title">Chờ duyệt</text>
+  <rect x="805" y="140" width="45" height="22" rx="11" fill="#fef3c7" />
+  <text x="823" y="156" class="text-sub" font-weight="bold" fill="#92400e">6</text>
+
+  <!-- Card in Col 3 -->
+  <rect x="625" y="180" width="235" height="110" class="card" />
+  <text x="635" y="205" font-family="sans-serif" font-size="10" font-weight="bold" fill="#d97706">Review Code</text>
+  <text x="635" y="230" class="text-card">React Router v6</text>
+  <text x="635" y="248" class="text-desc">Điều hướng Link sang /item/:id...</text>
+  <text x="635" y="275" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857">7.000.000 ₫</text>
+
+  <!-- Col 4: Done -->
+  <rect x="895" y="120" width="265" height="640" class="col" />
+  <circle cx="920" cy="150" r="6" fill="#047857" />
+  <text x="935" y="155" class="text-title">Hoàn thành</text>
+  <rect x="1090" y="140" width="45" height="22" rx="11" fill="#d1fae5" />
+  <text x="1108" y="156" class="text-sub" font-weight="bold" fill="#065f46">6</text>
+
+  <!-- Card in Col 4 -->
+  <rect x="910" y="180" width="235" height="110" class="card" />
+  <text x="920" y="205" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857">✓ Đã xong</text>
+  <text x="920" y="230" class="text-card">Setup Vite TypeScript</text>
+  <text x="920" y="248" class="text-desc">Pass 7/7 test Vitest utils...</text>
+  <text x="920" y="275" font-family="sans-serif" font-size="10" font-weight="bold" fill="#047857">8.000.000 ₫</text>
+</svg>
