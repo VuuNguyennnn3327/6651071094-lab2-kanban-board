@@ -1,0 +1,410 @@
+[
+  {
+    "id": "TASK-101",
+    "title": "Thiết kế hệ thống Design System & Tokens",
+    "description": "Xây dựng thư viện màu sắc Emerald (#059669), typography, button và spacing đồng bộ Figma sang Tailwind CSS.",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "2026-11-10",
+    "budget": 12000000,
+    "assignee": {
+      "name": "Nguyễn Trường Vũ",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "email": "truongvu.nguyen@company.com"
+    },
+    "tags": ["Design System", "Tailwind", "UI/UX"],
+    "createdAt": "2026-11-01T08:30:00Z",
+    "updatedAt": "2026-11-01T08:30:00Z"
+  },
+  {
+    "id": "TASK-102",
+    "title": "Tích hợp xác thực hai lớp (2FA / OTP)",
+    "description": "Bổ sung phương thức bảo mật 2FA qua Google Authenticator và email xác thực người dùng cấp quản trị.",
+    "status": "todo",
+    "priority": "urgent",
+    "dueDate": "2026-11-12",
+    "budget": 18500000,
+    "assignee": {
+      "name": "Trần Minh Đức",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+      "email": "duc.tran@company.com"
+    },
+    "tags": ["Security", "Backend", "Auth"],
+    "createdAt": "2026-11-01T09:00:00Z",
+    "updatedAt": "2026-11-01T09:00:00Z"
+  },
+  {
+    "id": "TASK-103",
+    "title": "Tối ưu hóa Lighthouse Mobile đạt ≥ 90",
+    "description": "Nén ảnh định dạng WebP, code-splitting React Router, loại bỏ render-blocking CSS để tăng tốc độ tải trang.",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "2026-11-14",
+    "budget": 9000000,
+    "assignee": {
+      "name": "Lê Hải Yến",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+      "email": "haiyen.le@company.com"
+    },
+    "tags": ["Performance", "Lighthouse", "Mobile"],
+    "createdAt": "2026-11-01T09:30:00Z",
+    "updatedAt": "2026-11-01T09:30:00Z"
+  },
+  {
+    "id": "TASK-104",
+    "title": "Xây dựng Export báo cáo ra Excel & PDF",
+    "description": "Cung cấp tính năng xuất toàn bộ danh sách công việc theo từng cột trạng thái kèm bộ lọc ngày tháng.",
+    "status": "todo",
+    "priority": "medium",
+    "dueDate": "2026-11-18",
+    "budget": 7500000,
+    "assignee": {
+      "name": "Phạm Quốc Tuấn",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+      "email": "tuan.pham@company.com"
+    },
+    "tags": ["Export", "Report", "Feature"],
+    "createdAt": "2026-11-01T10:00:00Z",
+    "updatedAt": "2026-11-01T10:00:00Z"
+  },
+  {
+    "id": "TASK-105",
+    "title": "Nghiên cứu tích hợp Webhook Discord & Slack",
+    "description": "Tự động gửi thông báo đến kênh chat nội bộ khi có công việc mới được chuyển sang trạng thái khẩn cấp.",
+    "status": "todo",
+    "priority": "low",
+    "dueDate": "2026-11-20",
+    "budget": 5000000,
+    "assignee": {
+      "name": "Hoàng Thu Thảo",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+      "email": "thao.hoang@company.com"
+    },
+    "tags": ["Integration", "Webhook", "Notification"],
+    "createdAt": "2026-11-01T10:30:00Z",
+    "updatedAt": "2026-11-01T10:30:00Z"
+  },
+  {
+    "id": "TASK-106",
+    "title": "Cấu hình Docker Compose môi trường Staging",
+    "description": "Đóng gói ứng dụng với Nginx reverse proxy, cấu hình SSL Let's Encrypt tự động gia hạn.",
+    "status": "todo",
+    "priority": "medium",
+    "dueDate": "2026-11-22",
+    "budget": 11000000,
+    "assignee": {
+      "name": "Vũ Đình Nam",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+      "email": "nam.vu@company.com"
+    },
+    "tags": ["DevOps", "Docker", "Staging"],
+    "createdAt": "2026-11-01T11:00:00Z",
+    "updatedAt": "2026-11-01T11:00:00Z"
+  },
+  {
+    "id": "TASK-107",
+    "title": "Phát triển tính năng kéo thả Task bằng @dnd-kit",
+    "description": "Cài đặt sensor pointer và keyboard, hiệu ứng chuyển động trơn tru khi di chuyển card giữa 4 cột Kanban.",
+    "status": "in-progress",
+    "priority": "urgent",
+    "dueDate": "2026-11-06",
+    "budget": 20000000,
+    "assignee": {
+      "name": "Nguyễn Trường Vũ",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "email": "truongvu.nguyen@company.com"
+    },
+    "tags": ["dnd-kit", "Frontend", "Interactive"],
+    "createdAt": "2026-11-01T11:30:00Z",
+    "updatedAt": "2026-11-02T08:00:00Z"
+  },
+  {
+    "id": "TASK-108",
+    "title": "Xây dựng hệ thống Toast thông báo toàn cục",
+    "description": "Hỗ trợ 4 kiểu thông báo: Success, Error, Info, Warning với thanh tiến trình tự biến mất sau 3 giây.",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-11-07",
+    "budget": 8000000,
+    "assignee": {
+      "name": "Lê Hải Yến",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+      "email": "haiyen.le@company.com"
+    },
+    "tags": ["Toast", "UI/UX", "ContextAPI"],
+    "createdAt": "2026-11-01T13:00:00Z",
+    "updatedAt": "2026-11-02T09:15:00Z"
+  },
+  {
+    "id": "TASK-109",
+    "title": "Cài đặt CRUD cục bộ đồng bộ localStorage",
+    "description": "Cung cấp modal thêm, sửa, xem chi tiết và xóa công việc kèm cơ chế sao lưu dữ liệu tự động.",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-11-08",
+    "budget": 14000000,
+    "assignee": {
+      "name": "Trần Minh Đức",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+      "email": "duc.tran@company.com"
+    },
+    "tags": ["CRUD", "localStorage", "State"],
+    "createdAt": "2026-11-01T14:00:00Z",
+    "updatedAt": "2026-11-02T10:00:00Z"
+  },
+  {
+    "id": "TASK-110",
+    "title": "Thiết kế Responsive 3 breakpoint (Mobile/Tablet/Desktop)",
+    "description": "Đảm bảo hiển thị chuẩn xác: <640px (1 cột có tab), 640-1024px (2 cột) và >1024px (4 cột dạng lưới).",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-11-09",
+    "budget": 9500000,
+    "assignee": {
+      "name": "Phạm Quốc Tuấn",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+      "email": "tuan.pham@company.com"
+    },
+    "tags": ["Responsive", "CSS", "MobileFirst"],
+    "createdAt": "2026-11-01T15:00:00Z",
+    "updatedAt": "2026-11-02T11:00:00Z"
+  },
+  {
+    "id": "TASK-111",
+    "title": "Xử lý bẫy Focus Trap và phím ESC cho Modal",
+    "description": "Đạt chuẩn Accessibility WCAG AA, cho phép đóng modal nhanh bằng phím Esc và giữ tiêu điểm tab bên trong.",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-11-10",
+    "budget": 6000000,
+    "assignee": {
+      "name": "Hoàng Thu Thảo",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+      "email": "thao.hoang@company.com"
+    },
+    "tags": ["Accessibility", "A11y", "Modal"],
+    "createdAt": "2026-11-01T16:00:00Z",
+    "updatedAt": "2026-11-02T13:30:00Z"
+  },
+  {
+    "id": "TASK-112",
+    "title": "Viết Unit Test cho utils.ts bằng Vitest",
+    "description": "Bao phủ 7/7 test cases cho formatCurrency, truncateText, validateEmail và debounce.",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-11-05",
+    "budget": 8500000,
+    "assignee": {
+      "name": "Nguyễn Trường Vũ",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "email": "truongvu.nguyen@company.com"
+    },
+    "tags": ["Testing", "Vitest", "TypeScript"],
+    "createdAt": "2026-11-01T16:45:00Z",
+    "updatedAt": "2026-11-02T14:00:00Z"
+  },
+  {
+    "id": "TASK-113",
+    "title": "Code Review tính năng React Router v6",
+    "description": "Kiểm tra điều hướng nội bộ bằng thẻ Link giữa danh sách Kanban (/) và chi tiết công việc (/item/:id).",
+    "status": "review",
+    "priority": "medium",
+    "dueDate": "2026-11-04",
+    "budget": 7000000,
+    "assignee": {
+      "name": "Vũ Đình Nam",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+      "email": "nam.vu@company.com"
+    },
+    "tags": ["Review", "Router", "Quality"],
+    "createdAt": "2026-11-01T17:00:00Z",
+    "updatedAt": "2026-11-02T15:20:00Z"
+  },
+  {
+    "id": "TASK-114",
+    "title": "Đánh giá tuân thủ quy tắc ESLint và TypeScript Strict",
+    "description": "Chạy kiểm tra npx eslint . và npx tsc --noEmit nhằm đảm bảo 0 lỗi và 0 cảnh báo trước khi bàn giao.",
+    "status": "review",
+    "priority": "urgent",
+    "dueDate": "2026-11-04",
+    "budget": 6500000,
+    "assignee": {
+      "name": "Trần Minh Đức",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+      "email": "duc.tran@company.com"
+    },
+    "tags": ["Linting", "TypeScript", "CodeQuality"],
+    "createdAt": "2026-11-01T17:30:00Z",
+    "updatedAt": "2026-11-02T16:00:00Z"
+  },
+  {
+    "id": "TASK-115",
+    "title": "Kiểm tra tương phản màu sắc AA của Emerald #059669",
+    "description": "Sử dụng công cụ kiểm tra độ tương phản WCAG đảm bảo tỉ lệ chữ và nền luôn đạt trên 4.5:1.",
+    "status": "review",
+    "priority": "medium",
+    "dueDate": "2026-11-05",
+    "budget": 4500000,
+    "assignee": {
+      "name": "Lê Hải Yến",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+      "email": "haiyen.le@company.com"
+    },
+    "tags": ["Accessibility", "Colors", "Audit"],
+    "createdAt": "2026-11-02T08:30:00Z",
+    "updatedAt": "2026-11-02T16:30:00Z"
+  },
+  {
+    "id": "TASK-116",
+    "title": "Đo lường hiệu năng kéo thả dưới 60 FPS",
+    "description": "Profiling bằng Chrome DevTools để tránh re-render thừa khi kéo thả giữa các cột trên thiết bị cấu hình thấp.",
+    "status": "review",
+    "priority": "high",
+    "dueDate": "2026-11-05",
+    "budget": 11500000,
+    "assignee": {
+      "name": "Nguyễn Trường Vũ",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "email": "truongvu.nguyen@company.com"
+    },
+    "tags": ["Performance", "DevTools", "Optimization"],
+    "createdAt": "2026-11-02T09:00:00Z",
+    "updatedAt": "2026-11-02T17:00:00Z"
+  },
+  {
+    "id": "TASK-117",
+    "title": "Audit các thuộc tính aria-label trên toàn bộ Button",
+    "description": "Bổ sung aria-label cho toàn bộ nút icon đóng modal, chỉnh sửa, xóa và nút lọc tìm kiếm.",
+    "status": "review",
+    "priority": "medium",
+    "dueDate": "2026-11-06",
+    "budget": 5500000,
+    "assignee": {
+      "name": "Hoàng Thu Thảo",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+      "email": "thao.hoang@company.com"
+    },
+    "tags": ["A11y", "ScreenReader", "Buttons"],
+    "createdAt": "2026-11-02T09:30:00Z",
+    "updatedAt": "2026-11-02T17:30:00Z"
+  },
+  {
+    "id": "TASK-118",
+    "title": "Thẩm định cấu trúc tài liệu nộp PDF",
+    "description": "Rà soát đầy đủ 7 mục nội dung nộp bài: Thông tin cá nhân, biến thể tính toán, link GitHub, deploy, video.",
+    "status": "review",
+    "priority": "low",
+    "dueDate": "2026-11-06",
+    "budget": 3000000,
+    "assignee": {
+      "name": "Phạm Quốc Tuấn",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+      "email": "tuan.pham@company.com"
+    },
+    "tags": ["Documentation", "Submission", "PDF"],
+    "createdAt": "2026-11-02T10:00:00Z",
+    "updatedAt": "2026-11-02T18:00:00Z"
+  },
+  {
+    "id": "TASK-119",
+    "title": "Khởi tạo dự án Vite React TypeScript",
+    "description": "Thiết lập cấu trúc thư mục 6651071094_LAB2, cấu hình Tailwind CSS, PostCSS và các file tsconfig.",
+    "status": "done",
+    "priority": "urgent",
+    "dueDate": "2026-11-03",
+    "budget": 8000000,
+    "assignee": {
+      "name": "Nguyễn Trường Vũ",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "email": "truongvu.nguyen@company.com"
+    },
+    "tags": ["Setup", "Vite", "React18"],
+    "createdAt": "2026-11-01T08:00:00Z",
+    "updatedAt": "2026-11-03T08:30:00Z"
+  },
+  {
+    "id": "TASK-120",
+    "title": "Cấu hình Git Repository và quy ước Commit",
+    "description": "Tạo repository 6651071094-lab2-kanban-board, áp dụng quy chuẩn commit [HH:MM] cho ít nhất 14 commit.",
+    "status": "done",
+    "priority": "high",
+    "dueDate": "2026-11-03",
+    "budget": 6000000,
+    "assignee": {
+      "name": "Trần Minh Đức",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+      "email": "duc.tran@company.com"
+    },
+    "tags": ["Git", "Workflow", "GitHub"],
+    "createdAt": "2026-11-01T08:15:00Z",
+    "updatedAt": "2026-11-03T09:00:00Z"
+  },
+  {
+    "id": "TASK-121",
+    "title": "Soạn thảo tài liệu phân tích bài toán & Wireframe",
+    "description": "Thiết kế wireframe bố cục Kanban 4 cột, form modal tương tác và lưu vào thư mục design/.",
+    "status": "done",
+    "priority": "medium",
+    "dueDate": "2026-11-03",
+    "budget": 5000000,
+    "assignee": {
+      "name": "Lê Hải Yến",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+      "email": "haiyen.le@company.com"
+    },
+    "tags": ["Wireframe", "Design", "Figma"],
+    "createdAt": "2026-11-01T08:45:00Z",
+    "updatedAt": "2026-11-03T09:30:00Z"
+  },
+  {
+    "id": "TASK-122",
+    "title": "Xây dựng Header và thanh điều hướng chính",
+    "description": "Bao gồm logo thương hiệu Emerald, ô tìm kiếm debounce 300ms, bộ lọc theo tag và nút tạo mới công việc.",
+    "status": "done",
+    "priority": "medium",
+    "dueDate": "2026-11-03",
+    "budget": 7500000,
+    "assignee": {
+      "name": "Phạm Quốc Tuấn",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+      "email": "tuan.pham@company.com"
+    },
+    "tags": ["Header", "Navigation", "Search"],
+    "createdAt": "2026-11-01T09:15:00Z",
+    "updatedAt": "2026-11-03T10:15:00Z"
+  },
+  {
+    "id": "TASK-123",
+    "title": "Thiết lập cấu trúc dữ liệu JSON khởi tạo",
+    "description": "Soạn sẵn 24 công việc mẫu thực tế đầy đủ thông tin trạng thái, người phụ trách, ngân sách và nhãn.",
+    "status": "done",
+    "priority": "high",
+    "dueDate": "2026-11-03",
+    "budget": 6500000,
+    "assignee": {
+      "name": "Nguyễn Trường Vũ",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "email": "truongvu.nguyen@company.com"
+    },
+    "tags": ["Data", "JSON", "Mock"],
+    "createdAt": "2026-11-01T09:45:00Z",
+    "updatedAt": "2026-11-03T11:00:00Z"
+  },
+  {
+    "id": "TASK-124",
+    "title": "Kiểm thử sơ bộ triển khai Vercel / Netlify",
+    "description": "Cấu hình file vercel.json rewrite route cho SPA để chuyển hướng chính xác khi F5 trang chi tiết.",
+    "status": "done",
+    "priority": "high",
+    "dueDate": "2026-11-03",
+    "budget": 9000000,
+    "assignee": {
+      "name": "Vũ Đình Nam",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+      "email": "nam.vu@company.com"
+    },
+    "tags": ["Deployment", "Vercel", "SPA"],
+    "createdAt": "2026-11-01T10:15:00Z",
+    "updatedAt": "2026-11-03T11:45:00Z"
+  }
+]
